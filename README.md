@@ -6,9 +6,19 @@ The blockchain infrastructure is created using Python [dataclasses](https://docs
 
 ---
 
-### Summary
+## Summary
 
+With the Streamlit UI, users can run this app to build a record system of financial transactions using blockchain fundamentals. While running the app you can add as many blocks, or transactions, to the chain as you want and determine the block difficulty for each one. 
 
+![Full screen view of streamlit web ui app showing pychain table with multiple records and side nav bar allowing users to view individual records and select block difficulty](./Resources/Screenshots/full_screen.png)
+
+The ledger appears in the UI as a table with each transaction as a row, and this table serves as a visual representation of the ledger's blockchain infrastructure.
+
+![Screenshot of a ledger dataframe with multiple entries, or blocks.](./Resources/Screenshots/pychain_df.png)
+
+Adding a block will create a new transaction in the ledger and instantly be reflected in the UI table. After each addition to the blockchain you can then verify the integrity of the entire blockchain, meaning that the app will go through each block and validate that it has stored the previous block's hash in its data. 
+
+![Gif of using the UI add block button to create a new entry into the blockchain and seeing it be added to the UI table](./Resources/Gifs/add_block.gif)
 
 ---
 
