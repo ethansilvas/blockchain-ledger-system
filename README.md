@@ -8,7 +8,7 @@ The blockchain infrastructure is created using Python [dataclasses](https://docs
 
 ## Summary
 
-With the Streamlit UI, users can run this app to build a record system of financial transactions using blockchain fundamentals. While running the app you can add as many blocks, or transactions, to the chain as you want and determine the block difficulty for each one. 
+With the Streamlit UI, users can run this app to build a record system of financial transactions using blockchain fundamentals. While running the app you can add as many blocks, or transactions, to the chain as you want and determine the block difficulty for each one. Increasing the block difficulty will result in longer hash times because it increases the complexity of the hash pattern that each block needs to fulfill.
 
 ![Full screen view of streamlit web ui app showing pychain table with multiple records and side nav bar allowing users to view individual records and select block difficulty](./Resources/Screenshots/full_screen.png)
 
