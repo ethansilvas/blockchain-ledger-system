@@ -20,6 +20,10 @@ Adding a block will create a new transaction in the ledger and instantly be refl
 
 ![Gif of using the UI add block button to create a new entry into the blockchain and seeing it be added to the UI table](./Resources/Gifs/add_block.gif)
 
+In your local terminal you will see the output of each addition to the blockchain as well as the confirmation that the entire chain is verified. 
+
+![](./Resources/Screenshots/validate_chain.png)
+
 ---
 
 ## Technologies
